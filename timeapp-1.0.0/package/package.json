@@ -1,0 +1,18 @@
+{
+  "name": "timeapp",
+  "version": "1.0.0",
+  "description": "This is a simple time application which displays current date and time.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-packager ."
+  },
+  "author": "anshulbadhani",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^16.0.7"
+  },
+  "devDependencies": {
+    "electron-packager": "^15.4.0"
+  }
+}
